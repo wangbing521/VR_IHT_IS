@@ -55,9 +55,9 @@ PIHT uses probabilistic mini-batch updates combined with iterative hard threshol
 
 VR-IHT-IS uses a SARAH-type variance-reduced gradient estimator with static importance probabilities. The sampling distribution is determined before optimization and is based on sample-wise smoothness or Lipschitz upper bounds:
 
-\[
+$$
 p_i = \frac{L_i}{\sum_{j=1}^{N} L_j}.
-\]
+$$
 
 The corresponding importance correction uses $1/(N p_i)$.
 

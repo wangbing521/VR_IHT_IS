@@ -39,6 +39,7 @@ htmlcov/
 .jupyter/
 
 mycache/
+**/data/
 
 .vscode/
 .idea/
